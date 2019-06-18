@@ -78,7 +78,7 @@ class SingleCartProduct extends StatelessWidget {
         leading: Image(
           image: AssetImage(cartProductPicture),
           height: 100.0,
-          width: 100.0,
+          width: 50.0,
           fit: BoxFit.contain,
         ),
         title: Text(cartProductName),

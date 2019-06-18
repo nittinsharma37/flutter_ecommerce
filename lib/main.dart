@@ -194,7 +194,6 @@ class _MyHomePageState extends State<MyHomePage> {
         children: <Widget>[
           //image carrousel view
           imageCarousel,
-
           Padding(
             padding: EdgeInsets.all(10.0),
             child: Text(
