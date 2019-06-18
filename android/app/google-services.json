@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744068676294",
+    "firebase_url": "https://flutter-ecommerce-75994.firebaseio.com",
+    "project_id": "flutter-ecommerce-75994",
+    "storage_bucket": "flutter-ecommerce-75994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744068676294:android:2c972d49bec69201",
+        "android_client_info": {
+          "package_name": "com.example.app3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744068676294-p3os52uk88tb5tfpdp7vutefl60bud05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app3",
+            "certificate_hash": "29a8c3c032d520f2644c709cfcadc263bb29c496"
+          }
+        },
+        {
+          "client_id": "744068676294-a0pb5kisn70o6gib3u91vpnjuk4fhjsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaYEzkKCIgysqXZ9J7dYApSHwPKT7Uf8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744068676294-a0pb5kisn70o6gib3u91vpnjuk4fhjsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
