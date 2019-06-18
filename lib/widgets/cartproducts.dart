@@ -134,7 +134,7 @@ class SingleCartProduct extends StatelessWidget {
               child: Icon(Icons.arrow_drop_up, size: 20.0,),
               onTap: (){},
             ),
-            Text(cartProductQuantity.toString(), style: TextStyle(fontSize: 12.0),),
+            Text("$cartProductQuantity", style: TextStyle(fontSize: 12.0),),
             InkWell(
               child: Icon(Icons.arrow_drop_down, size: 20.0,),
               onTap: (){},
