@@ -1,4 +1,3 @@
-import 'package:app3/main.dart';
 import 'package:app3/pages/homepage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
