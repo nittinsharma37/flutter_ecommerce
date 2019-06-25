@@ -1,4 +1,6 @@
 import 'package:app3/pages/homepage.dart';
+import 'package:app3/pages/recovery.dart';
+import 'package:app3/pages/signup.dart';
 import 'package:app3/presentation/my_flutter_app_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -222,7 +224,10 @@ class _LoginState extends State<Login> {
                               width: 10.0,
                             ),
                             InkWell(
-                              onTap: () {},
+                              onTap: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => AccountRecover())),
                               child: Row(
                                 children: <Widget>[
                                   Text(
@@ -337,31 +342,36 @@ class _LoginState extends State<Login> {
                           ],
                         ),
                         Padding(
-                          padding: EdgeInsets.only(top: 50.0),
+                          padding: EdgeInsets.only(top: 40.0),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               InkWell(
-                                onTap: (){},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => SignUp()));
+                                },
                                 child: Row(
                                   children: <Widget>[
                                     Text(
-                                    "New User? ",
-                                    style: TextStyle(
-                                      fontSize: 18.0,
-                                    ),
+                                      "New User? ",
+                                      style: TextStyle(
+                                        fontSize: 18.0,
+                                      ),
                                     ),
                                     Text(
-                                    "Sign Up here",
-                                    style: TextStyle(
-                                      fontSize: 18.0,
-                                      decoration: TextDecoration.underline,
-                                      color: Theme.of(context).primaryColor, 
-                                    ),
+                                      "Sign Up here",
+                                      style: TextStyle(
+                                        fontSize: 18.0,
+                                        decoration: TextDecoration.underline,
+                                        color: Theme.of(context).primaryColor,
+                                      ),
                                     ),
                                   ],
                                 ),
-                                ),
+                              ),
                             ],
                           ),
                         ),
